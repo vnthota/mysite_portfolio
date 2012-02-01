@@ -1,0 +1,143 @@
+/*
+	My Custome Stylesheet
+	
+*/
+
+/* First, pull in Bootstrap's stylesheet */
+@import url(bootstrap.css);
+
+/* Now my custom styles */
+
+body {
+	background-image:url(../images/fabric_plaid.png);
+	font-family: 'Maven Pro' sans-serif;
+}
+
+section {padding-top: 60px;
+}
+
+.container {
+width: 940px;
+margin-left: auto;
+margin-right: auto;
+zoom: 1;
+}
+
+.media-grid a:hover{
+	border-color: #ddd;
+	box-shadow: 1px 1px 5px #999;
+}
+
+.footer{
+	min-width: 940px;
+	padding: 30px 0;
+	padding-top: 30px;
+	padding-right: 0px;
+	padding-bottom: 30px;
+	padding-left: 0px;
+	text-shadow: 0 1px 0 white;
+
+}
+
+h1 {
+	color: #00B4ff;
+}
+
+.twitter, .facebook, .linkedin, .dribble {
+	float: left;
+}
+
+.twitter {
+	display: block;
+	width: 38px;
+	height: 33px;
+	background: url('../images/socials/twitter.png') bottom;
+	text-indent: -99999px;
+	position:relative;
+	top: 5px;
+	
+}
+.twitter:hover {
+	background-position: 0 0;
+}
+
+.facebook {
+	display: block;
+	width: 26px;
+	height: 48px;
+	background: url('../images/socials/facebook.png') bottom;
+	text-indent: -99999px;
+	position:relative;
+	top: -4px;
+	
+}
+.facebook:hover {
+	background-position: 0 0;
+}
+
+.linkedin {
+	display: block;
+	width: 36px;
+	height: 40px;
+	background: url('../images/socials/linkedin.png') bottom;
+	text-indent: -99999px;
+	position:relative;
+	top: -4px;
+
+}
+.linkedin:hover {
+	background-position: 0 0;
+}
+
+.dribble {
+	display: block;
+	width: 34px;
+	height: 31px;
+	background: url('../images/socials/dribble.png') bottom;
+	text-indent: -99999px;
+	position:relative;
+	top: 1px;
+
+}
+.dribble:hover {
+	background-position: 0 0;
+}
+
+.skills {
+	position: relative;
+}
+
+.skills li {
+	list-style: none;
+	font-size: 19px;
+	padding: 10px;
+	border-bottom: 3px solid #90D9F0;
+	font-weight: 900;
+}
+
+.skills li .percent {
+position: absolute;
+left: -60px;
+}
+
+.skills li span {
+position: absolute;
+right: 0px;
+font-weight: 900;
+}
+
+.bar_100{width: 200px;}
+.bar_90{ width:180px; }
+.bar_80{ width:160px; }
+.bar_70{ width:140px; }
+.bar_60{ width:120px; }
+.bar_50{ width:100px; }
+.bar_40{ width:80px; }
+.bar_30{ width:60px; }
+.bar_20{ width:40px; }
+.bar_10{ width:20px; }
+
+.bar_100, .bar_90, .bar_80, .bar_70, .bar_60, .bar_50, .bar_40, .bar_30, .bar_20, .bar_10 {
+background: url(../img/bar_graph.png) repeat-x right .3em;
+height: 20px;
+}
