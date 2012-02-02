@@ -13,7 +13,7 @@
 
 	
 	<!-- Le javascript -->
-	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
 	   	<script src="scripts/google-code-prettify/prettify.js"></script>
 		<script>$(function () { prettyPrint() })</script>
 	    <script src="scripts/bootstrap-modal.js"></script>
@@ -24,16 +24,47 @@
 	    <script src="scripts/bootstrap-scrollspy.js"></script>
 	    <script src="scripts/bootstrap-tabs.js"></script>
 	    <script src="scripts/bootstrap-buttons.js"></script>
+		<script type="text/javascript" src="scripts/jquery.fancybox.pack.js"></script>
+		
+		<script type="text/javascript">
+
+			// Change title type, overlay opening speed and opacity
+						$(".fancybox-effects-d").fancybox({
+							helpers: {
+								title : {
+									type : 'outside'
+								},
+								overlay : {
+									speedIn : 500,
+									opacity : 0.95
+								}
+							}
+						});
+		  
+		   	// Remove padding, set opening and closing animations, close if clicked and disable overlay
+		   		$(".fancybox-effects-d").fancybox({
+		   			padding: 0,
+           		
+		   			openEffect : 'elastic',
+		   			openSpeed  : 150,
+           		
+		   			closeEffect : 'elastic',
+		   			closeSpeed  : 150,
+           		
+		   			closeClick : true,
+           		
+		   			helpers : {
+		   				overlay : null
+		   			}
+		   		});			
+		
+		</script>
 	
 	<!-- Le styles -->
     <link href="stylesheets/style.css" rel="stylesheet">
 	<link href="scripts/google-code-prettify/prettify.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,900italic|Open+Sans:800italic' rel='stylesheet' type='text/css'>
-    <style>
-      body {
-        padding-top: 60px;
-      }
-    </style>
+	<link rel="stylesheet" href="stylesheets/jquery.fancybox.css" type="text/css" media="screen" />
 
     <!-- Le fav and touch icons -->
     <link rel="shortcut icon" href="../assets/ico/vtfavcon.ico">
@@ -42,7 +73,7 @@
     <link rel="apple-touch-icon" sizes="114x114" href="../assets/ico/vtfavcon-114x114.png">
   </head>
 
-  <body>
+<body>
 	<div class="topbar" data-scrollspy="scrollspy"><!-- Nav bar -->
     	<div class="topbar-inner">
 	      <div class="fill">
@@ -59,7 +90,7 @@
 		</div>
     </div><!-- Nav bar -->
 
-<div class="container">
+	<div class="container">
 
       <!-- Main hero unit -->
       <div class="hero-unit">
@@ -87,11 +118,11 @@
 				</div>
 				
 				<div class="span-two-thirds">
-		           <p>	I'm obsessed with technology, beautiful design and great products. After graduating from Portland State University, I was lucky enough to join the design consultancy firm, Ziba Design, where I fell in love with innovation in design, branding and creating "beautiful experiences." After leaving the US, I joined a local web startup in Macau where I worked for 6 months, initially heading the social media and setting up technology standards. After a month I jumped into the website design and user experience, marketing, brand identity and advertising campaigns. However, the startup failed to launch, but the lessons learnt were invaluable.  <br> <br>
+		           <p>	I'm obsessed with technology, beautiful design and great products. After graduating from Portland State University, I was lucky enough to join the design consultancy firm, <a href="http://www.ziba.com" target="_blank">Ziba Design</a>, where I fell in love with innovation in design, branding and creating "beautiful experiences." After leaving the US, I joined a local web startup in Macau where I worked for 6 months, initially heading the social media and setting up technology standards. After a month I jumped into the website design and user experience, marketing, brand identity and advertising campaigns. However, the startup failed to launch, but the lessons learnt were invaluable.  <br> <br>
 
 					I am now pursuing my passion for web design and development, focusing on learning and building great applications and products with the help from some great mentors and friends. My interests, however, extend beyond the web and I love helping people with branding, identity and marketing strategy. <br> <br>
 
-					When I'm not glued to my computer screen, I work out, read, find time to make trips to snowboard, listen to great electronic music and mess around with various technology gadgets made by Apple or any other great company.
+					When I'm not glued to my computer screen, I work out, read, find time to make trips to snowboard, listen to great <a href="http://www.mugasha.com" target="_blank">electronic music</a> and mess around with various technology gadgets made by Apple or any other great company.
 					</p>
 				</div>
 			</div>
@@ -145,36 +176,32 @@
 			
 				<ul class="media-grid">
 					<li>
-						<a href="#">
-							<img src="http://placehold.it/290x200"/>
+						<a class="fancybox-effects-d" rel="group" href="images/list1.png"><img src="images/pagesnip.png" alt=""/> 
 						</a>
 					</li>
 					<li>
-						<a href="#">
-							<img src="http://placehold.it/290x200"/>
+						<a class="fancybox-effects-d" rel="group" href="images/list2.png"><img src="images/list2s.png" alt=""/> 
 						</a>
 					</li>
 					<li>
-						<a href="#">
-							<img src="http://placehold.it/290x200"/>
+						<a class="fancybox-effects-d" rel="group" href="images/list3.png"><img src="images/list3s.png" alt=""/> 
 						</a>
 					</li>
 				</ul><!-- end media-grid-->
                 
 					<ul class="media-grid">
 						<li>
-							<a href="#">
-								<img src="http://placehold.it/290x200"/>
+							<a class="fancybox-effects-d" rel="group" href="images/list4.png"><img src="images/list4s.png" alt=""/> 
 							</a>
+						
 						</li>
 						<li>
-							<a href="#">
-								<img src="http://placehold.it/290x200"/>
+							<a class="fancybox-effects-d" rel="group" href="images/mugasha.png"><img src="images/mugashas.png" alt=""/> 
 							</a>
+							
 						</li>
 						<li>
-							<a href="#">
-								<img src="http://placehold.it/290x200"/>
+							<a class="fancybox-effects-d" rel="group" href="images/newclient.png"><img src="images/newclients.png" alt=""/> 
 							</a>
 						</li>
 					</ul><!-- end media-grid-->
@@ -191,7 +218,7 @@
 			</div>
 					<div class="row">
 						<div class="span16">
-				           <p>I'm currently available for freelance projects or full-time work or consulting. Let's have a talk and find out how we can get started on something. Here are some ways to contact me:</p>
+				           <p>I'm currently available for freelance/consulting projects or full-time work. Let's chat and find out how we can get started on something together. Here are some ways to contact me:</p>
 						</div>
 					</div>
 
@@ -248,7 +275,7 @@
 						
 		</section><!-- Contact -->
 
-</div> <!-- /container -->
+	</div> <!-- /container -->
 		
 	<footer class="footer">
 		<div class="container">

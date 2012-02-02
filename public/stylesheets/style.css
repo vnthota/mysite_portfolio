@@ -11,13 +11,15 @@
 body {
 	background-image:url(../images/fabric_plaid.png);
 	font-family: 'Lato', sans-serif;
+	padding-top: 55px;
 }
 
 p {
 	font-weight: 300;
 }
 
-section {padding-top: 60px;
+section {
+	padding-top: 55px;
 }
 
 .container {
