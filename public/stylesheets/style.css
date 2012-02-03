@@ -14,9 +14,23 @@ body {
 	padding-top: 55px;
 }
 
+h1 {
+	color: #00B4ff;
+	text-shadow: 0 1px 0 #fff;
+}
+
 p {
 	font-weight: 300;
+	padding-bottom: 20px;
 }
+
+
+.highlightlist {
+background-color: #ddd;
+padding-left: 2px;
+padding-right: 2px;
+}
+
 
 section {
 	padding-top: 55px;
@@ -45,9 +59,7 @@ zoom: 1;
 
 }
 
-h1 {
-	color: #00B4ff;
-}
+
 
 .twitter, .facebook, .linkedin, .dribble {
 	float: left;
