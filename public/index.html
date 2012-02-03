@@ -27,7 +27,8 @@
 		<script type="text/javascript" src="scripts/jquery.fancybox.pack.js"></script>
 		
 		<script type="text/javascript">
-
+		
+			
 			// Change title type, overlay opening speed and opacity
 						$(".fancybox-effects-d").fancybox({
 							helpers: {
@@ -57,7 +58,8 @@
 		   				overlay : null
 		   			}
 		   		});			
-		
+				$('#topbar').scrollspy()
+				$('body').scrollSpy('refresh')
 		</script>
 	
 	<!-- Le styles -->
@@ -73,14 +75,14 @@
     <link rel="apple-touch-icon" sizes="114x114" href="../assets/ico/vtfavcon-114x114.png">
   </head>
 
-<body>
-	<div class="topbar" data-scrollspy="scrollspy"><!-- Nav bar -->
+<body data-spy="scroll" >
+	<div class="topbar"><!-- Nav bar -->
     	<div class="topbar-inner">
 	      <div class="fill">
 	        <div class="container">
-	          <a class="brand" href="#">Varun Thota</a>
+	          <a class="brand" href="#home">Varun Thota</a>
 	          <ul class="nav">
-	            <li class="active"><a href="#">Home</a></li>
+	            <li class="active"><a href="#home">Home</a></li>
 	            <li><a href="#about">About Me</a></li>
 				<li><a href="#work">My Work</a></li>
 	            <li><a href="#contact">Contact Me</a></li>
@@ -93,12 +95,14 @@
 	<div class="container">
 
       <!-- Main hero unit -->
-      <div class="hero-unit">
-       <hgroup>
- 			<h1>I Am...</h1>
-		</hgroup>
-      </div>
-	
+		<section id="home">
+      		<div class="hero-unit">
+		       <hgroup>
+		 			<h1>I Am...</h1>
+				</hgroup>
+		    </div>
+		</section>
+		
 		<section id="about"><!-- About me -->
 			<div class="page-header">
 				<h1>About Me
@@ -118,9 +122,9 @@
 				</div>
 				
 				<div class="span-two-thirds">
-		           <p>	I'm <span class="highlightlist">obsessed</span> with technology, beautiful design and great products. After graduating from Portland State University, I was lucky enough to join the design consultancy firm, <a href="http://www.ziba.com" target="_blank">Ziba Design</a>, where I fell in love with innovation in design, branding and creating "beautiful experiences." After leaving the US, I joined a local web startup in Macau where I worked for 6 months, initially heading the social media and setting up technology standards. After a month I was also responsible for the website design and user experience, marketing, brand identity and advertising campaigns. However, the startup failed to launch, but the <span class="highlightlist">lessons</span> learnt were <span class="highlightlist">invaluable</span>.  <br> <br>
+		           <p>	I'm <span class="highlightlist">obsessed</span> with technology, beautiful design and great products. After graduating from Portland State University, I was lucky enough to join the design consultancy firm, <a href="http://www.ziba.com" target="_blank">Ziba Design</a>. Here I fell in love with innovation in design, branding and creating <span class="highlightlist">"beautiful experiences."</span> After leaving the US, I joined a local web startup in Macau where I worked for 6 months, initially heading social media and setting up technology standards. After a month I took on the responsibility of various other functions from website design & user experience to marketing & advertising campaigns. However, the startup failed to launch, but the <span class="highlightlist">lessons</span> learnt were <span class="highlightlist">invaluable</span>.  <br> <br>
 
-					I am now pursuing my <span class="highlightlist">passion</span> for web design and development, focusing on learning and building creative & professional applications and products with the help from some great mentors and friends. My interests, however, extend beyond the web as I am passionate about helping people create a brand, an identity and a marketing strategy for their <span class="highlightlist">business</span>. <br> <br>
+					I am now pursuing my <span class="highlightlist">passion</span> for web design and development, focusing on learning and building creative & professional applications and products with the help from some great mentors and friends. My interests however, extend beyond the web as I am passionate about helping people create a brand, an identity and a marketing strategy for their <span class="highlightlist">business</span>. <br> <br>
 
 					When I'm not engaged in long hours of <span class="highlightlist">creative outbursts</span>, I work out, read, find time to travel for music/food/sports, listen to great <a href="http://www.mugasha.com" target="_blank">electronic music</a> and indulge in various technology gadgets and their applications. <br><br>
 					
@@ -216,10 +220,9 @@
 		
 		<section id="contact"><!-- Contact -->	
 			<div class="page-header">
-			 	<h1>Contact
+			 	<h1>Contact Me
 				<small>Get in touch</small>
 				</h1>
-				
 			</div>
 					<div class="row">
 						<div class="span16">
