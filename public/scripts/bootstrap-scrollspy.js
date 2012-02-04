@@ -108,7 +108,7 @@
   $.fn.scrollspy.Constructor = ScrollSpy
 
   $.fn.scrollspy.defaults = {
-    offset: 60
+    offset: 70
   }
 
 
