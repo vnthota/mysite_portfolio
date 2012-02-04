@@ -24,6 +24,9 @@ p {
 	padding-bottom: 20px;
 }
 
+p.help-block{
+	padding-bottom: 0px;
+}
 
 .highlightlist {
 background-color: #ddd;
