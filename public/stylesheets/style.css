@@ -34,10 +34,15 @@ padding-left: 2px;
 padding-right: 2px;
 }
 
+div.hero-unit{
+	position: relative;
+	top: -20px;
+}
 
 section {
 	padding-top: 55px;
 }
+
 
 .container {
 width: 940px;

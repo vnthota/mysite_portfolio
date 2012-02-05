@@ -109,6 +109,7 @@ nav,
 section {
   display: block;
 }
+
 audio, canvas, video {
   display: inline-block;
   *display: inline;
@@ -1722,7 +1723,7 @@ a.menu:after, .dropdown-toggle:after {
   color: #404040;
 }
 .hero-unit {
-	background: url(../images/iam-2.png) no-repeat;
+	background: url(../images/iam2.png) no-repeat;
 	width: 940px;
 	height: 300px;
 }
