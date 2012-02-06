@@ -136,7 +136,6 @@ zoom: 1;
 	font-size: 19px;
 	padding: 10px;
 	border-bottom: 3px solid #90D9F0;
-	font-weight: 800;
 	font-style: italic;
 }
 
@@ -148,8 +147,8 @@ left: -60px;
 .skills li span {
 position: absolute;
 right: 0px;
-font-weight: 800;
-font-style: italic;
+font-weight: 400;
+font-style: normal;
 }
 
 .bar_100{width: 200px;}
