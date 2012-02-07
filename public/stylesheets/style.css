@@ -166,3 +166,7 @@ font-style: normal;
 background: url(../images/bar_graph.png) repeat-x right .3em;
 height: 20px;
 }
+
+.header.info{
+	padding-top: 100px;
+}
