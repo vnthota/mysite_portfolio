@@ -11,7 +11,7 @@
 body {
 	background-image:url(../images/fabric_plaid.png);
 	font-family: 'Lato', sans-serif;
-	padding-top: 55px;
+	padding-top: 50px;
 }
 
 h1 {
@@ -40,7 +40,7 @@ div.hero-unit{
 }
 
 section {
-	padding-top: 55px;
+	padding-top: 50px;
 }
 
 
