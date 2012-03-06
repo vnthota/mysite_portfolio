@@ -5,7 +5,8 @@
     <title>Online Portfolio | Varun Thota</title>
     <meta name="description" content="Online portfolio of Varun Thota">
     <meta name="keywords" content="Portfolio, Varun Thota, Macau, Portland, web design, Varun, Thota">
-
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -13,24 +14,30 @@
 	
 	<!-- Le styles -->
     <link href="stylesheets/style.css" rel="stylesheet">
-	<link href="scripts/google-code-prettify/prettify.css" rel="stylesheet">
+	<link href="stylesheets/bootstrap-responsive.css" rel="stylesheet">
+	<link href="stylesheets/prettify.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,900italic' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="stylesheets/jquery.fancybox.css" type="text/css" media="screen" />
 
     <!-- Le fav and touch icons -->
     <link rel="shortcut icon" href="images/vtfavcon.ico">
-    <link rel="apple-touch-icon" href="../assets/ico/vtfavcon-57x57.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="../assets/ico/vtfavcon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="../assets/ico/vtfavcon-114x114.png">
+    <link rel="apple-touch-icon" href="images/vtfavcon-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/vtfavcon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/vtfavcon-114x114.png">
   </head>
 
 <body data-spy="scroll" >
-	<div class="topbar"><!-- Nav bar -->
-    	<div class="topbar-inner">
-	      <div class="fill">
-	        <div class="container">
+	<div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
 	          <a class="brand" href="#home">Varun Thota</a>
-	          <ul class="nav">
+			<div class="nav-collapse">
+			  <ul class="nav">
 	            <li class="active"><a href="#home">Home</a></li>
 	            <li><a href="#about">About Me</a></li>
 				<li><a href="#work">My Work</a></li>
@@ -38,18 +45,16 @@
 				<li><a href="http://vnthota.posterous.com">Blog</a></li>
 	          </ul>
 			</div>
-	      </div>
 		</div>
-    </div><!-- Nav bar -->
+      </div>
+	</div><!-- Nav bar -->
 
 	<div class="container">
-
-      <!-- Main hero unit -->
 		<section id="home">
-      		<div class="hero-unit">
-		       	<hgroup>
-			 			<h1>I Am...</h1>
-					</hgroup>
+      		<div class="row">
+		       	<div class="span12">
+					<img src="images/iam2.png" alt="Online Portfolio | Varun Thota">
+				</div>
 		    </div>
 		</section>
 		
@@ -61,17 +66,17 @@
 			</div>
 			
 			<div class="row">
-				<div class="span-one-third">
-		        		<ul class="media-grid">
-							<li>
-								<a href="#">
+				<div class="span4">
+		        		<ul class="thumbnails">
+							<li class="span3">
+								<a href="http://web.stagram.com/n/vnthota/" class="thumbnail">
 									<img src="images/me2.jpeg" alt="Instagram moment: Snowboarding">
 								</a>
 							</li>
 						</ul>
 				</div>
 				
-				<div class="span-two-thirds">
+				<div class="span8">
 		           <p>	I'm <span class="highlightlist">obsessed</span> with technology, beautiful design and great products. After graduating from Portland State University, I had the opportunity to join a design consultancy firm, <a href="http://www.ziba.com" target="_blank">Ziba Design</a>. There I fell in love with innovation in design, branding and creating <span class="highlightlist">"beautiful experiences."</span> After leaving the US, I joined a local web startup in Macau where I worked for 6 months, initially heading social media and setting up technology standards. After a month I took on the responsibility of various other functions from website design & user experience to marketing & advertising campaigns. However the startup failed to launch; but the <span class="highlightlist">lessons</span> learnt were <span class="highlightlist">invaluable</span>.  <br> <br>
 
 					I am now pursuing my <span class="highlightlist">passion</span> for web design and development, focusing on learning and building creative & professional applications and products with the help from some great mentors and friends. My interests however, extend beyond the web as I am passionate about helping people create a brand, an identity and a marketing strategy for their <span class="highlightlist">business</span>. <br> <br>
@@ -84,11 +89,7 @@
 			</div>
 			
 			<div class="row">
-				<div class="span-one-third">
-					<p></p>
-				</div>
-				
-				<div class="span-two-thirds">
+				<div class="span7 offset4">
 					<h2>Skills <small>A constant work in progress</small>
 						</h2>
 					<ul class="skills">
@@ -119,7 +120,7 @@
 								<span class="percent">30%</span>
 							</span>
 						</li>
-						
+					</ul>
 				</div>
 			</div>
 			
@@ -132,39 +133,45 @@
 					<small>Projects I've worked on</small>
 		 		</h1>
 			</div>
-			
-				<ul class="media-grid">
-					<li>
-						<a class="fancybox-effects-d" rel="group" href="images/list1.png"><img src="images/pagesnip.png" alt="site design and user experience by Varun Thota"/> 
-						</a>
-					</li>
-					<li>
-						<a class="fancybox-effects-d" rel="group" href="images/list2.png"><img src="images/list2s.png" alt="logo redesign and brand identity by Varun Thota "/> 
-						</a>
-					</li>
-					<li>
-						<a class="fancybox-effects-d" rel="group" href="images/list3.png"><img src="images/list3s.png" alt="B2B flyer design by Varun Thota"/> 
-						</a>
-					</li>
-				</ul><!-- end media-grid-->
-                
-					<ul class="media-grid">
-						<li>
-							<a class="fancybox-effects-d" rel="group" href="images/list4.png"><img src="images/list4s.png" alt="launch page and identity design by Varun Thota"/> 
-							</a>
-						
+			<div class="row">
+				<div class="span12">
+					<ul class="thumbnails">
+						<li class="span4">
+						  <a class="fancybox-effects-d" rel="group" href="images/list1.png" class="thumbnail">
+						    <img src="images/pagesnip.png" alt="site design and user experience by Varun Thota"/>
+						  </a>
 						</li>
-						<li>
-							<a class="fancybox-effects-d" rel="group" href="images/mugasha.png"><img src="images/mugashas.png" alt="interning at Mugasha"/> 
+						<li class="span4">
+							<a class="fancybox-effects-d" rel="group" href="images/list2.png"><img src="images/list2s.png" alt="logo redesign and brand identity by Varun Thota "/> 
 							</a>
+						</li>
+						<li class="span4">
+							<a class="fancybox-effects-d" rel="group" href="images/list3.png"><img src="images/list3s.png" alt="B2B flyer design by Varun Thota"/> 
+							</a>
+						</li>
+					</ul>
+                </div>
+			</div>
+			<div class="row">
+				<div class="span12">	
+						<ul class="thumbnails">
+							<li class="span4">
+								<a class="fancybox-effects-d" rel="group" href="images/list4.png"><img src="images/list4s.png" alt="launch page and identity design by Varun Thota"/> 
+								</a>
 							
-						</li>
-						<li>
-							<a class="fancybox-effects-d" rel="group" href="images/newclient.png"><img src="images/newclients.png" alt="new business"/> 
-							</a>
-						</li>
-					</ul><!-- end media-grid-->
-					
+							</li>
+							<li class="span4">
+								<a class="fancybox-effects-d" rel="group" href="images/mugasha.png"><img src="images/mugashas.png" alt="interning at Mugasha"/> 
+								</a>
+								
+							</li>
+							<li class="span4">
+								<a class="fancybox-effects-d" rel="group" href="images/newclient.png"><img src="images/newclients.png" alt="new business"/> 
+								</a>
+							</li>
+			    	</ul><!-- end media-grid-->
+				</div>
+			</div>		
 					
 		</section><!-- end Recent work -->
 		
@@ -181,7 +188,7 @@
 					</div>
 
 					<div class="row">
-						<div class="span-two-thirds">
+						<div class="span8">
 							
 					      	<script type="text/javascript">var host = (("https:" == document.location.protocol) ? "https://secure." : "http://");document.write(unescape("%3Cscript src='" + host + "wufoo.com/scripts/embed/form.js' type='text/javascript'%3E%3C/script%3E"));</script>
 
@@ -198,7 +205,7 @@
 							
 					   	</div>
 
-						<div class="span-one-third"> 
+						<div class="span4"> 
 							<h3>PHONE ME</h3> 
 							<p>Varun Thota <br>
 								Macau, China <br>
@@ -238,22 +245,13 @@
 	</footer>
 	
 	<!-- Le javascript -->
-	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
-	   	<script src="scripts/google-code-prettify/prettify.js"></script>
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	   	<script src="scripts/prettify.js"></script>
 		<script>$(function () { prettyPrint() })</script>
-	    <script src="scripts/bootstrap-modal.js"></script>
-	    <script src="scripts/bootstrap-alerts.js"></script>
-	    <script src="scripts/bootstrap-twipsy.js"></script>
-	    <script src="scripts/bootstrap-popover.js"></script>
-	    <script src="scripts/bootstrap-dropdown.js"></script>
-	    <script src="scripts/bootstrap-scrollspy.js"></script>
-	    <script src="scripts/bootstrap-tabs.js"></script>
-	    <script src="scripts/bootstrap-buttons.js"></script>
+	    <script src="scripts/bootstrap.js"></script>
 		<script type="text/javascript" src="scripts/jquery.fancybox.pack.js"></script>
 		
 		<script type="text/javascript">
-		
-			
 			// Change title type, overlay opening speed and opacity
 						$(".fancybox-effects-d").fancybox({
 							helpers: {
@@ -285,7 +283,6 @@
 		   		});			
 				$('#topbar').scrollspy()
 		</script>
-		
 		
 		<!--  smooth scroll -->
 		<script>
