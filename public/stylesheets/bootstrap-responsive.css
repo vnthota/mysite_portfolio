@@ -391,6 +391,17 @@
     overflow: hidden;
     height: 0;
   }
+  .bar_100, .bar_90, .bar_80, .bar_70, .bar_60, .bar_50, .bar_40, .bar_30, .bar_20, .bar_10 {
+ 	background: none;
+  }
+ .skills li span {
+  	position: static;
+	left: -60px;
+  }
+  .skills li .percent {
+  	position: static;
+  	left: -60px;
+  }
 }
 @media (min-width: 980px) {
   .nav-collapse.collapse {
