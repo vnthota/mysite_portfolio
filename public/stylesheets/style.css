@@ -143,6 +143,20 @@ zoom: 1;
 	background-position: 0 0;
 }
 
+.me {
+	display: block;
+	width: 56px;
+	height: 22px;
+	background: url('../images/socials/me.png') bottom;
+	text-indent: -99999px;
+	position:relative;
+	top: 6px;
+	left: 134px;
+
+}
+.me:hover {
+	background-position: 0 0;
+}
 .skills {
 	position: relative;
 }
