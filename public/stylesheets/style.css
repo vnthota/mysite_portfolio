@@ -150,13 +150,29 @@ zoom: 1;
 	background: url('../images/socials/me.png') bottom;
 	text-indent: -99999px;
 	position:relative;
-	top: 6px;
-	left: 134px;
+	top: -25px;
+	left: 163px;
 
 }
 .me:hover {
 	background-position: 0 0;
 }
+
+.pinterest {
+	display: block;
+	width: 27px;
+	height: 33px;
+	background: url('../images/socials/pinterest.png') bottom;
+	text-indent: -99999px;
+	position:relative;
+	top: 2px;
+	left: 134px;
+
+}
+.pinterest:hover {
+	background-position: 0 0;
+}
+
 .skills {
 	position: relative;
 }
