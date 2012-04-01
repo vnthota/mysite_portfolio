@@ -70,6 +70,17 @@ zoom: 1;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
 }
 
+.new{
+	padding: 0;
+	display: block;
+	position: absolute;
+	margin: -20px;
+	z-index: 1000;
+	width: 153px;
+	height: 49px;
+	background: url('../images/ribbon.png');
+}
+
 .footer{
 	padding-top: 18px;
 	padding-right: 0px;
