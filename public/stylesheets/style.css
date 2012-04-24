@@ -229,3 +229,12 @@ height: 20px;
 .header.info{
 	padding-top: 100px;
 }
+
+.resize{
+	background: url(../images/resize.png) repeat scroll 0 0 transparent;
+	    bottom: 0;
+	    height: 80px;
+	    position: fixed;
+	    right: 0;
+	    width: 80px;
+}
