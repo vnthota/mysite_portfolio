@@ -73,7 +73,7 @@
 				<div class="span4">
 		        		<ul class="thumbnails">
 							<li class="span3">
-								<a href="http://web.stagram.com/n/vnthota/" class="thumbnail">
+								<a href="http://webbygram.com/vnthota/" class="thumbnail" rel="popover" data-content="Click to view some of the photos I've taken over the year." data-original-title="Instagram Gallery">
 									<img src="images/me2.jpeg" alt="Instagram moment: Snowboarding">
 								</a>
 							</li>
@@ -93,38 +93,10 @@
 			</div>
 			
 			<div class="row">
-				<div class="span7 offset4">
+				<div class="span8 offset4">
 					<h2>Skills <small>A constant work in progress</small>
-						</h2>
-					<ul class="skills">
-						<li>Social Media
-							<span class="bar_100">
-								<span class="percent">100%</span>
-							</span>
-						</li>
-						   <li>Branding / Identity / Marketing
-						   	<span class="bar_70">
-						   		<span class="percent">70%</span>
-						   	</span>
-						
-						 <li>User Experience
-						 	<span class="bar_60">
-						 		<span class="percent">60%</span>
-						 	</span>
-						 </li>
-						
-						</li>
-							<li>HTML / CSS 
-								<span class="bar_50">
-									<span class="percent">50%</span>
-								</span>
-						</li>
-						<li>Ruby on Rails
-							<span class="bar_30">
-								<span class="percent">30%</span>
-							</span>
-						</li>
-					</ul>
+					</h2>
+					      <img src="images/skillsgraph.png" alt="">
 				</div>
 			</div>
 			
@@ -260,6 +232,11 @@
 		<script type="text/javascript">
 			$(function(){
 			    $('a[rel=tooltip]').tooltip();
+			});
+		</script>
+		<script type="text/javascript">
+			$(function(){
+			    $('a[rel=popover]').popover();
 			});
 		</script>
 		<script type="text/javascript">
