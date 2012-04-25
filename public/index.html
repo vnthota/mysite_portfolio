@@ -223,12 +223,12 @@
 								</p>
 							
 				          	<h3>FOLLOW ME</h3>
-				           	<a class="twitter" href="http://twitter.com/vnthota">Twitter</a>
-							<a class="linkedin" href="http://www.linkedin.com/in/vnthota">LinkedIn</a>
-							<a class="facebook" href="http://fb.com/vnthota">Facebook</a>
-							<a class="dribble" href="http://dribbble.com/vnthota">Dribble</a>
-							<a class="pinterest" href="http://pinterest.com/vnthota/">Pinterest</a>
-							<a class="me" href="http://about.me/varun.thota">About.Me</a>
+				           	<a class="twitter" rel="tooltip" title="Twitter" href="http://twitter.com/vnthota">Twitter</a>
+							<a class="linkedin" rel="tooltip" title="LinkedIn" href="http://www.linkedin.com/in/vnthota">LinkedIn</a>
+							<a class="facebook" rel="tooltip" title="Facebook" href="http://fb.com/vnthota">Facebook</a>
+							<a class="dribble" rel="tooltip" title="Dribbble" href="http://dribbble.com/vnthota">Dribbble</a>
+							<a class="pinterest" rel="tooltip" title="Pinterest" href="http://pinterest.com/vnthota/">Pinterest</a>
+							<a class="me" rel="tooltip" title="About.Me" href="http://about.me/varun.thota">About.Me</a>
 						</div>
 					</div>
 					
@@ -257,8 +257,13 @@
 		<script>$(function () { prettyPrint() })</script>
 	    <script src="scripts/bootstrap.js"></script>
 		<script type="text/javascript" src="scripts/jquery.fancybox.pack.js"></script>
-		
 		<script type="text/javascript">
+			$(function(){
+			    $('a[rel=tooltip]').tooltip();
+			});
+		</script>
+		<script type="text/javascript">
+			
 			// Change title type, overlay opening speed and opacity
 						$(".fancybox-effects-d").fancybox({
 							helpers: {
@@ -287,8 +292,8 @@
 		   			helpers : {
 		   				overlay : null
 		   			}
-		   		});			
-				$('#topbar').scrollspy()
+		   		});
+		
 		</script>
 		
 		<!--  smooth scroll -->

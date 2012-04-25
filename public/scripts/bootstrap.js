@@ -1094,7 +1094,7 @@
     animation: true
   , delay: 0
   , selector: false
-  , placement: 'top'
+  , placement: 'bottom'
   , trigger: 'hover'
   , title: ''
   , template: '<div class="tooltip"><div class="tooltip-arrow"></div><div class="tooltip-inner"></div></div>'
