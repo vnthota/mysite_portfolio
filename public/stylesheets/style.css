@@ -39,7 +39,7 @@ h2 {
 }
 
 p#mepoints{
-	font-family: 'JosefinSlabLight', serif;
+	font-family: 'JosefinSlabLight' !important;
 	font-size: 40px;
 	line-height: 50px;
 }
