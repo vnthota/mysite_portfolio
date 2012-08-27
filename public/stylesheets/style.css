@@ -14,9 +14,34 @@ body {
 	padding-top: 20px;
 }
 
-h1 {
+
+@font-face {
+  font-family: 'JosefinSlabLight';
+  src: url('../fonts/JosefinSlab-Light-webfont.eot') format('eot'), url('../fonts/JosefinSlab-Light-webfont.woff') format('woff'), url('../fonts/JosefinSlab-Light-webfont.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'JosefinSlabRegular';
+  src: url('../fonts/JosefinSlab-Regular-webfont.eot') format('eot'), url('../fonts/JosefinSlab-Regular-webfont.woff') format('woff'), url('../fonts/JosefinSlab-Regular-webfont.ttf') format('truetype');
+}
+
+h1{
+	font-family: 'Rokkitt' !important;
+	font-size: 70px;
+	font-weight: 700;
+	line-height: 70px;
+}
+
+h2 {
 	color: #00B4ff;
 	text-shadow: 0 1px 0 #fff;
+	font-size: 26px;
+}
+
+p#mepoints{
+	font-family: 'JosefinSlabLight', serif;
+	font-size: 40px;
+	line-height: 50px;
 }
 
 p {
