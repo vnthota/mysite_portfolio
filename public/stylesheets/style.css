@@ -10,8 +10,9 @@
 
 body {
 	background-image:url(../images/fabric_plaid.png);
-	font-family: 'Lato', sans-serif;
+	font-family: 'Rokkitt', sans-serif;
 	padding-top: 20px;
+	font-size: 16px;
 }
 
 
@@ -42,6 +43,7 @@ p#mepoints{
 	font-family: 'JosefinSlabLight' !important;
 	font-size: 30px;
 	line-height: 45px;
+	text-shadow: 0 1px 0 white;
 }
 
 p {
