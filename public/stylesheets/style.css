@@ -18,12 +18,32 @@ body {
 
 @font-face {
   font-family: 'JosefinSlabLight';
-  src: url('../fonts/JosefinSlab-Light-webfont.eot') format('eot'), url('../fonts/JosefinSlab-Light-webfont.woff') format('woff'), url('../fonts/JosefinSlab-Light-webfont.ttf') format('truetype');
+  src: url('../fonts/JosefinSlab-Light-webfont.eot') format('eot'), 
+  url('../fonts/JosefinSlab-Light-webfont.woff') format('woff'), 
+  url('../fonts/JosefinSlab-Light-webfont.ttf') format('truetype'),
+  url('../fonts/JosefinSlab-Light-webfont.svg') format('svg');
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+@font-face {
+font-family: 'JosefinSlabLight';
+src: url('../fonts/JosefinSlab-Light-webfont.svg') format('svg');
+}
 }
 
 @font-face {
   font-family: 'JosefinSlabRegular';
-  src: url('../fonts/JosefinSlab-Regular-webfont.eot') format('eot'), url('../fonts/JosefinSlab-Regular-webfont.woff') format('woff'), url('../fonts/JosefinSlab-Regular-webfont.ttf') format('truetype');
+  src: url('../fonts/JosefinSlab-Regular-webfont.eot') format('eot'), 
+  url('../fonts/JosefinSlab-Regular-webfont.woff') format('woff'), 
+  url('../fonts/JosefinSlab-Regular-webfont.ttf') format('truetype'),
+  url('../fonts/JosefinSlab-Regular-webfont.svg') format('svg');
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+@font-face {
+font-family: 'JosefinSlabRegular';
+src: url('../fonts/JosefinSlab-Regular-webfont.svg') format('svg');
+}
 }
 
 h1{
@@ -40,7 +60,7 @@ h2 {
 }
 
 p#mepoints{
-	font-family: 'JosefinSlabLight' !important;
+	font-family: 'JosefinSlabRegular' !important;
 	font-size: 30px;
 	line-height: 45px;
 	text-shadow: 0 1px 0 white;
